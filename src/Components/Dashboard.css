@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    width: 450px;
+    border: 1px solid gray;
+}
+
+.container>div {
+    width: 50%;
+
+}
+
+.container :nth-child(2) {
+    display: flex;
+    flex-direction: column;
+}
